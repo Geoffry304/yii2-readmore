@@ -24,7 +24,8 @@
         }
     ],
     "require": {
-        "kartik-v/yii2-grid": "~3.1.6"
+        "kartik-v/yii2-grid": "~3.1.6",
+        "yiisoft/yii2": "*"
     },
     "autoload": {
         "psr-4": {
