@@ -1,6 +1,6 @@
 <?php
 
-namespace timedesk\readmore;
+namespace geoffry304\readmore;
 
 class ReadMoreColumn extends \kartik\grid\DataColumn {
     public function init() {

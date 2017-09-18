@@ -1,6 +1,6 @@
 <?php
 
-namespace timedesk\readmore;
+namespace geoffry304\readmore;
 
 
 class ReadMoreColumnAsset extends \yii\web\AssetBundle
@@ -12,4 +12,3 @@ class ReadMoreColumnAsset extends \yii\web\AssetBundle
         parent::init();
     }
 }
-
