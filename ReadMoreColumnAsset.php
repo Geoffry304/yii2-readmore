@@ -2,8 +2,9 @@
 
 namespace geoffry304\readmore;
 
+use kartik\base\AssetBundle;
 
-class ReadMoreColumnAsset extends \yii\web\AssetBundle
+class ReadMoreColumnAsset extends AssetBundle
 {
     public function init(){
         $this->setSourcePath(__DIR__.'/assets');

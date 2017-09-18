@@ -6,6 +6,7 @@ function lessText() {
 
             var short_content = $(this).text().substr(0, max_length); /* split the content in two parts */
             var long_content = $(this).text().substr(max_length);
+            long_content = long_content.replace(/(?:\r\n|\r|\n)/g, '<br />');
             long_content += '<a href="#" class="badge read_less">Read less</a>';
             var between_content = '... ';
 
@@ -21,7 +22,7 @@ function lessText() {
                 $(this).parents('.less_text').find('.between_content').hide(); /* show the .more_text span */
                 $(this).parents('.less_text').find('.more_text').show(); /* show the .more_text span */
             });
-            
+
             $(this).find('a.read_less').click(function (event) { /* find the a.read_more element within the new html and bind the following code to it */
                 event.preventDefault(); /* prevent the a from changing the url */
                 $(this).hide(); /* hide the read more button */
@@ -35,5 +36,3 @@ function lessText() {
 $(document).on('ready pjax:success', function () {
     lessText();
 });
-
-        

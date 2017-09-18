@@ -26,6 +26,7 @@
     ],
     "require": {
         "kartik-v/yii2-grid": "*",
+        "kartik-v/yii2-krajee-base": "*",
         "yiisoft/yii2": "*"
     },
     "autoload": {
