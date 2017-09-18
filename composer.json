@@ -1,0 +1,34 @@
+{
+    "name": "geoffry304/yii2-readmore",
+    "description": "Yii2 GridView column extensions. Read more full large text",
+    "keywords": [
+        "yii2",
+        "extension",
+        "grid",
+        "readmore",
+        "readless"
+    ],
+    "homepage": "https://github.com/geoffry304/yii2-readmore",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors":[
+        {
+            "name": "Geoffry Van den Eede",
+            "email": "g.vandeneede@dvit.be",
+            "homepage": "http://dvit.be"
+        },
+        {
+            "name": "Tim Van de Velde",
+            "email": "tim@dvit.be",
+            "homepage": "http://dvit.be"
+        }
+    ],
+    "require": {
+        "kartik-v/yii2-grid": "~3.1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "geoffry304\\readmore\\": ""
+        }
+    }
+}
