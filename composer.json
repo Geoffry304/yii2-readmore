@@ -24,7 +24,7 @@
         }
     ],
     "require": {
-        "kartik-v/yii2-grid": "~3.1.6",
+        "kartik-v/yii2-grid": "~3.1.x-dev",
         "yiisoft/yii2": "*"
     },
     "autoload": {
