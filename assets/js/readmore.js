@@ -36,3 +36,4 @@ function lessText() {
 $(document).on('ready pjax:success', function () {
     lessText();
 });
+ lessText();
